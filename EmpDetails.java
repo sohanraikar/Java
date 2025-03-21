@@ -2,9 +2,9 @@ package Java.work;  // Ensure the package matches your folder structure
 
 class Emp {
     private int empId = 101;
-    private String empName = "Nokesh";
+    private String empName = "Sohan";
     private int salary = 20000;
-    private String address = "xyz street";
+    private String address = "abc street";
     private String phone;
 
     // Constructor
@@ -51,7 +51,7 @@ class Emp {
 public class EmpDetails {
     public static void main(String[] args) {
         Emp ex = new Emp();
-        ex.setPhone("8688238202"); // Setting phone number
+        ex.setPhone("9353824226"); // Setting phone number
 
         // Display all details
         ex.displayDetails();
